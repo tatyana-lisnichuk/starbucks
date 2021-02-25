@@ -173,6 +173,8 @@ min-height: 685px;
   transition: all 0.2s ease-in-out;
   outline: none;
   margin-top: 55px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 .main-btn:hover{
 border: 1px solid #197850;
