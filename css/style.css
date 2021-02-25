@@ -262,8 +262,12 @@ span{
 .slide.active {
   display: block; 
 } */
+.dot{
+  transition: all 0.2s ease-in-out;
+}
 .dot:hover{
   opacity: 1;
+  transition: all 0.2s ease-in-out;
 }
 .slide {
  max-width: 290px;
@@ -271,8 +275,10 @@ span{
   margin: 10px;
   /* display: none; */
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 .slide:hover{
   transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
 
