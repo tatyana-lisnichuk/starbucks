@@ -66,6 +66,10 @@ h1,
 .flex{
   display: flex;
 }
+.align-right{
+  text-align: right;
+  padding-right: 10px;
+}
 .green-item,
 .main-btn {
 background-color: #197850;
@@ -283,4 +287,487 @@ span{
   transition: all 0.5s ease-in-out;
   opacity: 1;
 }
+/* 1201px - 1350px */
+@media screen and (max-width:1350px) {
+  .header-img2 {
+    margin-left: -120px;
+    margin-right: 10px;
+  }
+}
+/* 993px - 1200px */
+@media screen and (max-width:1200px) {
+  header {
+    display: flex;
+    width: 100%;
+  }
+  ul,
+  li {
+    padding-left: 0;
+    list-style: none;
+  }
+  h2 {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+  }
+  h1,
+  .catalog-title {
+    font-size: 36px;
+  }
+    .container {
+    padding: 0 16px;
+  }
+  .flex {
+    display: flex;
+  }
+  .green-item,
+  .brown-item {
+    width: 50%;
+    padding: 30px 0;
+  }
+  .left-side-orient {
+    padding-left: 16px;
+  }
+  .right-side-orient {
+    padding-right: 16px;
+  }
+  .nav {
+    padding-bottom: 0px;
+  }
+  .menu li {
+    margin-right: 22px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+  }
+  .menu{
+    margin: auto;
+  }
+  .bag {
+    margin-top: 14px;
+  }
+  .header-img-grid {
+    display: unset;
+    padding-right: 0px;
+  }
+  .header-img1 {
+    margin: 0 auto;
+  }
+  .header-img2 {
+    display: none;
+  }
+  .header-descr {
+    max-width: 300px;
+     left: 30px;
+  }
+  .text {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    line-height: 150%;
+  }
+  .main-btn {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+  .description,
+  footer {
+    padding: 30px 0;
+  }
+  .description h2 {
+    /* font-weight: 900; */
+    font-size: 24px;
+  }
+  .description .text {
+    padding-right: 16px;
+  }
+  .description-text-part-right {
+    padding-left: 30px;
+  }
+  .description-text-part-left {
+    padding-right: 30px;
+  }
+  /* catalog */
+  .catalog {
+    min-height: 700px;
+  }
+  .catalog .brown-item {
+    padding-left: 30px;
+  }
+  footer {
+    font-size: 16px;
+  }
+}
 
+/* 769px - 992px */
+@media screen and (max-width:992px) {
+ header {
+   /* display: flex;
+   width: 100%; */
+ }
+ /* .fab,
+.fas {
+  font-size: 28px;
+} */
+ /* ul,
+ li {
+   padding-left: 0;
+   list-style: none;
+ } */
+ h2 {
+   /* font-size: 24px; */
+   /* font-weight: 400; */
+   /* letter-spacing: 0.1em; */
+   /* text-transform: uppercase; */
+   /* margin: 25px 0; */
+ }
+ h1,
+ .catalog-title {
+   /* font-size: 36px; */
+   /* text-transform: uppercase; */
+   /* letter-spacing: 0.15em; */
+   /* font-weight: 900; */
+ }
+ .container {
+   /* max-width: 1200px; */
+   /* margin: 0 auto; */
+   padding: 0 10px;
+ }
+ /* .flex {
+   display: flex;
+ } */
+ .green-item,
+ .brown-item {
+   width: 50%;
+   padding: 10px 0;
+ }
+ /* .item-inner-wrap {
+  max-width: 600px;
+} */
+ .left-side-orient {
+   /* margin-right: 0;
+  margin-left: auto; */
+   /* padding-left: 16px; */
+ }
+
+ .right-side-orient {
+   /* margin-right: auto;
+  margin-left: 0; */
+   /* padding-right: 16px; */
+ }
+
+ /* .logo-img {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo-img:hover {
+  opacity: 0.5;
+} */
+
+ /* .nav,
+.menu {
+  display: flex;
+  color: #00352B;
+  justify-content: space-between;
+} */
+
+ /* .green {
+  color: #00352B;
+} */
+/* 
+ .nav {
+   padding-bottom: 0px;
+ } */
+
+ .menu li {
+   margin-right: 18px;
+   font-size: 14px;
+   letter-spacing: 0.08em;
+ }
+
+ /* .menu {
+   margin: auto;
+ } */
+
+ /* .menu-link {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-link:hover {
+  opacity: 0.5;
+} */
+
+ .bag {
+   /* text-align: right; */
+   /* margin-top: 14px; */
+ }
+
+ .header-img-grid {
+   display: unset;
+   /* align-items: center;
+  justify-content: center; */
+   padding-right: 0px;
+ }
+
+ .header-img1 {
+   max-width: 300px;
+  min-height: 100%;
+   /* margin: 0 auto; */
+ }
+
+ .header-img2 {
+   /* display: none; */
+   /* margin-left: -300px;
+  margin-right: 90px;
+  max-width: 295px;
+  min-height: 590px; */
+ }
+ .header-descr {
+   max-width: 300px;
+   /* position: absolute;
+  left: 30px;
+  */
+  top: 100px 
+ }
+
+ .text {
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   line-height: 150%;
+   /* font-weight: 400; */
+ }
+
+ .main-btn {
+   /* border: 1px solid #fff;
+  font-weight: 700;
+  color: #fff; */
+   /* font-size: 16px;
+   padding: 16px 24px; */
+   /* cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  margin-top: 55px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase; */
+ }
+ .description .flex{
+   flex-direction: column;
+ }
+ .description,
+ footer {
+   padding: 10px 0;
+ }
+ .description h2 {
+   /* font-weight: 900; */
+   font-size: 24px;
+ }
+
+ /* .description .text {
+   padding-right: 16px;
+ } */
+
+ /* .description-top,
+.description-bottom {
+  margin: 20px 0;
+} */
+.description-bottom{
+  position: relative;
+  padding-bottom: 200px;
+}
+ .description-text-part-right {
+   padding-left: 0px;
+ }
+
+ .description-text-part-left {
+   padding-right: 30px;
+  position: absolute;
+  top:340px;
+   
+ }
+ /* catalog */
+ .catalog {
+   min-height: 500px;
+ }
+
+ .catalog .brown-item {
+   padding-left: 30px;
+ }
+.catalog h2{
+  font-size: 24px;
+}
+ /* footer */
+ /* footer .flex {
+  justify-content: space-between;
+  align-items: center;
+} */
+
+ /* footer ul li {
+  margin-left: 30px;
+} */
+
+ footer {
+   font-size: 16px;
+ }
+
+ /* slider */
+ .slider-wrapper {
+ 
+   /* position: absolute;
+   max-width: 1000px;
+   width: 100%; */
+   /* выравниваю по центру абсолютно-спозиционированный слайдер */
+   /* top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%); */
+
+ }
+
+ /* .slider {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+ /* .dots-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+} */
+
+ span {
+  width: 14px;
+  height: 14px;
+  /* border-radius: 50%;
+  cursor: pointer;
+  background-color: #00352B;
+  opacity: 0.5;
+  margin-right: 10px; */
+}
+
+ /* .dot {
+  transition: all 0.2s ease-in-out;
+} */
+
+ /* .dot:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+} */
+ 
+.slide {
+  max-width: 200px;
+  min-height: 100%;
+  /* margin: 10px;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.7; */
+}
+
+ /* .slide:hover {
+  transform: scale(1.15);
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+} */
+}
+
+/* 577px - 768px */
+@media screen and (max-width:768px) {
+   /* .container {
+     padding: 0 10px;
+   } */
+   /* .green-item,
+   .brown-item {
+     width: 50%;
+     padding: 10px 0;
+   } */
+   h1,
+   .catalog-title {
+     font-size: 28px;}
+   .menu li {
+     margin-right: 15px;
+     font-size: 12px;
+     letter-spacing: 0.05em;
+   }
+   /* .header-img-grid {
+     display: unset;
+     padding-right: 0px;
+   } */
+   /* .header-img1 {
+     max-width: 300px;
+     min-height: 100%;
+   } */
+   .header-descr {
+     max-width: 200px;
+     /* top: 100px; */
+     left:16px;
+   }
+.header-descr h2{
+  font-size: 20px;
+}
+   .text {
+     font-size: 14px;
+     letter-spacing: 0.05em;
+     line-height: 145%;
+   }
+   .description .flex {
+     flex-direction: column;
+   }
+   .description,
+   footer {
+     padding: 10px 0;
+   }
+
+   .description h2 {
+     font-size: 24px;
+   }
+   .description-bottom {
+     position: relative;
+     padding-bottom: 200px;
+   }
+   .description-text-part-right {
+     padding-left: 0px;
+   }
+   .description-text-part-left {
+     padding-right: 30px;
+     position: absolute;
+     top: 340px;
+   }
+   /* catalog */
+   .catalog {
+     min-height: 500px;
+   }
+   .catalog .brown-item {
+     padding-left: 30px;
+   }
+   .catalog h2 {
+     font-size: 24px;
+   }
+   footer {
+     font-size: 16px;
+   }
+   span {
+     width: 14px;
+     height: 14px;
+   }
+   .slide {
+     max-width: 200px;
+     min-height: 100%;
+   }
+    .main-btn {
+
+  font-weight: 700;
+
+      font-size: 12px;
+   padding: 14px 20px;
+       /* cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  margin-top: 55px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase; */
+    }
+  }
+/* 0px - 576px */
+@media screen and (max-width:576px) {
+
+}
