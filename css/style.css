@@ -276,9 +276,11 @@ span{
   /* display: none; */
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  opacity: 0.7;
 }
 .slide:hover{
   transform: scale(1.15);
   transition: all 0.5s ease-in-out;
+  opacity: 1;
 }
 
