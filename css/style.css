@@ -1,0 +1,276 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans',
+  sans-serif;
+  color:#fff;
+  padding: 0;
+  margin: 0;
+  /* background-color:chocolate; */
+}
+p, h2, section, header, footer{
+  margin: 0;
+  padding: 0;
+}
+.site-wrapper{
+  max-width: 1600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  width: 100%;
+}
+.fas {
+  color: #fff;
+}
+.fab,
+.fas {
+  font-size: 28px;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.fas:hover,
+.fab:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+ul,
+li {
+  padding-left: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h2{
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+h1,
+.catalog-title{
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 900;
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+}
+.flex{
+  display: flex;
+}
+.green-item,
+.main-btn {
+background-color: #197850;
+}
+.brown-item,
+.description,
+footer{
+  background-color: #F2DBB2;
+}
+.green-item,
+.brown-item{
+width: 50%;
+padding: 60px 0;
+}
+.item-inner-wrap{
+  max-width: 600px;
+}
+.posit-relative {
+  position: relative;
+}
+.left-side-orient
+{
+margin-right: 0;
+margin-left: auto;
+}
+.right-side-orient{
+  margin-right: auto;
+  margin-left: 0;
+}
+.logo-img{
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.logo-img:hover {
+  opacity: 0.5;
+}
+.nav,
+.menu {
+  display: flex;
+  color:#00352B;
+  justify-content: space-between;
+}
+.green{
+   color:#00352B;
+}
+.nav{
+  padding-bottom: 60px;
+}
+.menu li{
+  margin-right: 50px;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+.menu-link{
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.menu-link:hover{
+ opacity: 0.5;
+}
+.bag {
+  text-align: right;
+  margin-top: 16px;
+}
+.header-img-grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.header-img1{
+max-width: 355px;
+min-height: 685px;
+}
+.header-img2 {
+ margin-left: -300px;
+ margin-right: 90px;
+  max-width: 295px;
+  min-height: 590px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-descr{
+  max-width: 550px;
+  position: absolute;
+  left: 90px;
+  top: 200px
+}
+.text {
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  line-height: 160%;
+  font-weight: 400;
+}
+.main-btn{
+  border: 1px solid #fff;
+  font-weight: 700;
+  color:#fff;
+  font-size: 18px;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  margin-top: 55px;
+}
+.main-btn:hover{
+border: 1px solid #197850;
+background-color:#fff;
+color:#197850;
+}
+.description,
+footer{
+  padding: 60px 0;
+}
+/* description */
+.description{
+  color:#00352B;
+}
+.description h2{
+  font-weight: 900;
+  font-size: 36px;
+}
+.description .text{
+  padding-right: 40px;
+}
+.description-top,
+.description-bottom{
+  margin: 20px 0;
+}
+.description-text-part-right{
+  padding-left: 90px;
+}
+.description-text-part-left{
+  padding-right: 90px;
+}
+/* catalog */
+.catalog{
+  min-height: 900px;
+}
+.catalog .brown-item{
+  padding-left: 90px;
+}
+/* footer */
+footer .flex{
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul li{
+  margin-left: 30px;
+}
+footer{
+  font-size: 18px;
+}
+/* slider */
+.slider-wrapper{
+  position: absolute;
+  max-width: 1000px;
+  width: 100%;
+  /* выравниваю по центру абсолютно-спозиционированный слайдер */
+  top:60%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  
+}
+.slider{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dots-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+span{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #00352B;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+/* .dot.active {
+  opacity: 1;
+}
+.slide.active {
+  display: block; 
+} */
+.dot:hover{
+  opacity: 1;
+}
+.slide {
+ max-width: 290px;
+  min-height: 550px;
+  margin: 10px;
+  /* display: none; */
+  cursor: pointer;
+}
+.slide:hover{
+  transform: scale(1.2);
+}
+
